@@ -32,7 +32,8 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
-/public/packs
+# comment out public packs so we can push assets that are precompiled..
+# /public/packs
 /public/packs-test
 /node_modules
 /yarn-error.log
