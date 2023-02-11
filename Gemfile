@@ -30,6 +30,7 @@ gem 'devise'
 gem 'hirb'
 gem 'solargraph'
 gem 'devise-bootstrap-views'
+gem 'alphavantage' # API KEY: W87HPY2HFEPHM0WL
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
