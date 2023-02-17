@@ -30,7 +30,7 @@ gem 'devise'
 gem 'hirb'
 gem 'solargraph'
 gem 'devise-bootstrap-views'
-gem 'alphavantage' # API KEY: W87HPY2HFEPHM0WL
+gem 'alphavantage' 
 gem 'font-awesome-rails'
 
 group :development, :test do
