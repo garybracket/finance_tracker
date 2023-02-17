@@ -1,3 +1,4 @@
+
 .page-content {
   flex: 1 0 auto;
   background-color: lightgrey;
@@ -11,11 +12,26 @@
   text-align: right;
 }
 
-
-
 .text-center {
   text-align: center;
 }
+
+.search-area {
+  padding-top: 50px;
+}
+
+.no-right-padding {
+  padding-right: 0 !important;
+}
+
+.no-left-padding {
+  padding-left: 0 !important;
+}
+
+.results-block {
+  display: inline-block; 
+}
+
 
 .jumbo-bg {
   background-image: url("image-bg4.jpg");
@@ -47,14 +63,14 @@
 #logo {
   float: left;
   font-size: 1.0cm;
-  color: #fff;
+  color: #ffffff;
   text-transform: uppercase;
   letter-spacing: -1px;
   font-weight: bold;
 }
 
 #footer {
-  background-color: rgb(44, 42, 42);
+  background-color: rgb(42, 42, 42);
 }
 
 html,
