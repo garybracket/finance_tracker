@@ -4,18 +4,25 @@ Covered.
 
 * Ruby version 2.7.6
 
-* System dependencies
+* Rails version 6.1.7
 
-* Configuration
+* PostgreSQL DB
 
-* Database creation
+* Local Dev is sqlite3, production is postgresql
 
-* Database initialization
+* No tests implemented
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
+* dependencies: 
+gem 'devise'
+gem 'devise-bootstrap-views'
+gem 'alphavantage' 
+gem 'font-awesome-rails'
+gem 'pg'
 
 * Deployment instructions
+Before running locally on your machine for dev.. run in order: 1) bundle install 2) rails db:migrate 3) rails assets:precompile 4) then try running rails s to start server
 
+Note: You cannot run more than 5 Stock searches in a one minute span..or the page will error out. However, once the API queries reset, you should be able to refresh and do a new search
+
+Note to self: try ignoring public/assets and public/packs in Git and see if assets compile properly..
 * ...
