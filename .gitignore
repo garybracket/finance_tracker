@@ -26,13 +26,14 @@
 /storage/*
 !/storage/.keep
 
-/public/assets
+
 .byebug_history
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
-# comment out public packs so we can push assets that are precompiled..
+# comment out public assets or packs so we can push assets that are precompiled..
+# /public/assets
 # /public/packs
 /public/packs-test
 /node_modules
