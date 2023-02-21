@@ -1,0 +1,98 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ *= require bootstrap
+ *= require font-awesome
+ */
+
+ .page-content {
+  flex: 1 0 auto;
+  background-color: lightgrey;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.search-area {
+  padding-top: 50px;
+}
+
+.no-right-padding {
+  padding-right: 0 !important;
+}
+
+.no-left-padding {
+  padding-left: 0 !important;
+}
+
+.results-block {
+  display: inline-block; 
+}
+
+
+.jumbo-bg {
+  background-image: url("image-bg4.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.navbar-brand {
+  font-size: 1em;
+}
+
+.admin-color {
+  color: #FF3333
+}
+
+.mod-color {
+  color: #008000
+}
+
+.owner-color {
+  color: #ff9900
+}
+
+#logo {
+  float: left;
+  font-size: 1.0cm;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#footer {
+  background-color: rgb(42, 42, 42);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+a:link { text-decoration: none; }
