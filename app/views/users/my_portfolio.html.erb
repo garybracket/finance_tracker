@@ -2,23 +2,20 @@
 <h4>Cannot search more than 5 stocks per minute with current free tier development API access key. This is for testing purposes only! If you get an error while searching, it is because you must wait 1 minute and try again. </h4>
 <div class='search-area'>
   <h3>Search Stocks</h3>
-  <%= form_tag search_stock_path,  method: :get do %>
+  <%= form_tag search_stock_path,  remote: true, method: :get do %>
     <div class="form-group row">
-      <div class="col-sm-9 no-right-padding">
-      <%= text_field_tag :stock, params[:stock], placeholder: "Stock ticker symbol", autofocus: true, class: "form-control form-control-lg" %>
+      <div class="col-sm-9">
+        <%= text_field_tag :stock, params[:stock], placeholder: "Stock ticker symbol", autofocus: true, class: "form-control form-control" %>
       </div>
-      <div class="col-sm-3 no-left-padding">
+      <div class="col-sm-3">
         <%= button_tag type: :submit, class: "btn btn-success" do %>
-          <%= fa_icon "search 2x" %>
+          <%= fa_icon "search " %>
         <% end %>
       </div>
     </div>
   <% end %>
 </div>
-<% if @stock %>
-  <div class="card card-header m-2" id="result-block">
-    <strong>Symbol: </strong> <%= @stock.ticker %>
-    <strong>Name: </strong> <%= @stock.name %>
-    <strong>Price: </strong> <%= @stock.last_price %>
-  </div>
-<% end %>
+<div id="results">
+  
+</div>
+
