@@ -1,3 +1,5 @@
+# THIS ENTIRE FILE NEEDED FOR RENDER-DEPLOY OF APPLICATION 
+
 databases:
   - name: mysite
     databaseName: mysite

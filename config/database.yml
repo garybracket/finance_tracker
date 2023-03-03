@@ -78,8 +78,10 @@ test:
 #   production:
 #     
 #
+# The following block of Prod code is required for RENDER-DEPLOY
 production:
   adapter: postgresql
   username: mysite
   password: <%= ENV['MYSITE_DATABASE_PASSWORD'] %>
   url: <%= ENV['DATABASE_URL'] %>
+# end RENDER-DEPLOY REQUIREMENT
