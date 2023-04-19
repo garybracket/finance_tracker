@@ -28,6 +28,10 @@
               <%= fa_icon 'edit'  %>  Edit Profile
             <% end %> </li>
 
+            <li><%= link_to my_friends_path, class: 'dropdown-item' do %>
+              <%= fa_icon 'users'  %>  My Friends
+            <% end %> </li>
+
             <% if user_signed_in? %>
             <li><hr class="dropdown-divider"></li>
             <li><%= link_to('Sign out', destroy_user_session_path, class: 'dropdown-item', method: :delete) %></li>
