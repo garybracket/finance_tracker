@@ -14,8 +14,7 @@ Covered.
 
 * dependencies: 
 gem 'devise'
-gem 'hirb'
-gem 'solargraph'
+
 gem 'devise-bootstrap-views'
 gem 'alphavantage' 
 gem 'font-awesome-rails'
