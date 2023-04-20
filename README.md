@@ -10,7 +10,7 @@ Covered.
 
 * Local Dev is sqlite3, production is postgresql
 
-* No tests implemented
+No tests implemented
 
 * dependencies: 
 gem 'devise'
