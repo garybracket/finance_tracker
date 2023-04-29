@@ -25,3 +25,4 @@ Before running locally on your machine for dev.. run in order: 1) bundle install
 Note: You cannot run more than 5 Stock searches in a one minute span..or the page will error out. However, once the API queries reset, you should be able to refresh and do a new search
 
 * Type RENDER-DEPLOY in a Search to see requirements to host on Render platform. There are several files that must be configured in some way for Production hosting. 
+tested.
